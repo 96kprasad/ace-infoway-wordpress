@@ -1,4 +1,4 @@
-const API_URL = 'https://wordpress.org/news/wp-json/wp/v2';
+const API_URL = process.env.NEXT_PUBLIC_WORDPRESS_API_URL;
 
 export async function getBlogs() {
   try {
