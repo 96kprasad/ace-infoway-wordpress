@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Blog } from '@/types/blog'
+import { Blog } from '@/types/types'
 
 interface BlogCardProps {
   blog: Blog
